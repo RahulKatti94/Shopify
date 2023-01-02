@@ -21,19 +21,19 @@ const Autoplay2 = () => {
         <Slider {...settings}>
           <div>
           <img
-              src="./images/001.jpg"
+              src="./images/99.png"
               alt="trusted-brands"
             />
           </div>
           <div>
           <img
-              src="./images/002.png"
+              src="./images/98.png"
               alt="trusted-brands"
             />
           </div>
           <div>
           <img
-              src="./images/003.png"
+              src="./images/97.png"
               alt="trusted-brands"
             />
           </div>
@@ -45,13 +45,13 @@ const Autoplay2 = () => {
           </div>
           <div>
           <img
-              src="./images/005.png"
+              src="./images/96.png"
               alt="trusted-brands"
             />
           </div>
           <div>
           <img
-              src="./images/006.png"
+              src="./images/95.png"
               alt="trusted-brands"
             />
           </div>
@@ -82,7 +82,7 @@ const Wrapper = styled.section`
 
   img {
     min-width: 10rem;
-    height: 6rem;
+    height: 10rem;
     margin-top: 3.2rem;
   }
 

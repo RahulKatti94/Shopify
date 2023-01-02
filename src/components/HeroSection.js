@@ -19,7 +19,7 @@ const HeroSection = ({ myData }) => {
               business can process orders, accept payments, manage shipping and
               logistics, and provide customer service.
             </p>
-            <NavLink>
+            <NavLink to="/products">
               <Button>show now</Button>
             </NavLink>
           </div>
