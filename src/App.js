@@ -10,6 +10,8 @@ import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import LocalStorage from "./LocalStorage";
+import LocalValueStore from "./LocalValueStore"
 
 const App = () => {
   const theme = {
@@ -40,7 +42,7 @@ const App = () => {
   return (
   
      <ThemeProvider theme={theme}>
-       <Router>
+       {/* <Router>
          <GlobalStyle />
          <Header />
          <Routes>
@@ -53,7 +55,9 @@ const App = () => {
            <Route path="*" element={<ErrorPage />} />
          </Routes>
          <Footer />
-       </Router>
+       </Router> */}
+       {/* <LocalStorage /> */}
+       <LocalValueStore />
      </ThemeProvider>
      
   );
